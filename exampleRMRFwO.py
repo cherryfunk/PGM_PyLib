@@ -10,7 +10,13 @@ Code author: Jonathan Serrano-Pérez
 """
 
 import numpy as np
-from MRF import RMRFwO as mrf
+
+# Add the parent directory to the Python path
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+from PGM_PyLib.MRF import RMRFwO as mrf
 
 s = [0,1]
 r = np.zeros((4,4),dtype=int)
