@@ -10,7 +10,13 @@ Code author: Jonathan Serrano-Pérez
 """
 
 import numpy as np
-from MRF import RMRF as rmrf
+
+# Add the parent directory to the Python path
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+from PGM_PyLib.MRF import RMRF as rmrf
 
 np.random.seed(0)	# no mandatory
 
