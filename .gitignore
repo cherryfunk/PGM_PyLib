@@ -9395,3 +9395,7 @@
 .venv/share/jupyter/kernels/python3/logo-64x64.png
 .venv/share/jupyter/kernels/python3/logo-svg.svg
 .venv/share/man/man1/ipython.1
+.venv/.DS_Store
+.DS_Store
+.DS_Store
+.DS_Store
