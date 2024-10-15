@@ -21241,3 +21241,4 @@
 .venv/lib/python3.12/site-packages/wrapdisc-2.5.0.dist-info/top_level.txt
 .venv/lib/python3.12/site-packages/wrapdisc-2.5.0.dist-info/WHEEL
 .venv/share/man/man1/ttx.1
+.venv/lib/python3.12/site-packages/.DS_Store
